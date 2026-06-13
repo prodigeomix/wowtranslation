@@ -135,7 +135,6 @@ WoWTranslateGlossary["哀嚎洞穴"] = "Wailing Caverns"
 WoWTranslateGlossary["WC"] = "Wailing Caverns"
 WoWTranslateGlossary["wc"] = "Wailing Caverns"
 WoWTranslateGlossary["哀嚎"] = "Wailing Caverns"
-WoWTranslateGlossary["哀愁洞穴"] = "Wailing Caverns"  -- Common player typo
 
 -- Shadowfang Keep
 WoWTranslateGlossary["影牙城堡"] = "Shadowfang Keep"
@@ -197,7 +196,8 @@ WoWTranslateGlossary["rf"] = "Ragefire Chasm"
 
 -- Stockades
 WoWTranslateGlossary["监狱"] = "Stockades"
-WoWTranslateGlossary["暴风监狱"] = "Stockades"
+WoWTranslateGlossary["小监狱"] = "Stockades"
+WoWTranslateGlossary["暴风监狱"] = "Stormwind Stockades"
 WoWTranslateGlossary["刷马鞭"] = "Stockades (whip farm)"
 WoWTranslateGlossary["STOCKS"] = "Stockades"
 
@@ -230,6 +230,7 @@ WoWTranslateGlossary["jy"] = "Stockades"
 WoWTranslateGlossary["XS墓地"] = "Scarlet Monastery Graveyard"
 WoWTranslateGlossary["XS图书馆"] = "Scarlet Monastery Library"
 WoWTranslateGlossary["XS武器库"] = "Scarlet Monastery Armory"
+WoWTranslateGlossary["血色武器库"] = "Scarlet Armory"
 WoWTranslateGlossary["XS教堂"] = "Scarlet Monastery Cathedral"
 WoWTranslateGlossary["XS"] = "Scarlet Monastery"
 WoWTranslateGlossary["xs"] = "Scarlet Monastery"
@@ -313,29 +314,8 @@ WoWTranslateGlossary["龙吼要塞"] = "Dragonmaw Retreat"
 WoWTranslateGlossary["风暴废墟"] = "Stormwrought Ruins"
 WoWTranslateGlossary["采石场"] = "Hateforge Quarry"
 WoWTranslateGlossary["翡翠"] = "Emerald Sanctum"
-WoWTranslateGlossary["H翡翠"] = "Emerald Sanctum"
 WoWTranslateGlossary["ES"] = "Emerald Sanctum"
 WoWTranslateGlossary["es"] = "Emerald Sanctum"
-WoWTranslateGlossary["HLMM"] = "Onyxia"
-WoWTranslateGlossary["黑龙MM"] = "Onyxia"
-WoWTranslateGlossary["LKH"] = "Karazhan (lower)"
-WoWTranslateGlossary["Kara40"] = "Karazhan (upper)"
-WoWTranslateGlossary["卡40"] = "Karazhan (upper)"
-WoWTranslateGlossary["TMH"] = "Timbermaw Hold"
-WoWTranslateGlossary["木喉"] = "Timbermaw Hold"
-WoWTranslateGlossary["母猴"] = "Timbermaw Hold"
-WoWTranslateGlossary["FMH"] = "Frostmane Hollow"
-WoWTranslateGlossary["霜鬃谷"] = "Frostmane Hollow"
-WoWTranslateGlossary["WHC"] = "Wind Horn Canyon"
-WoWTranslateGlossary["GC"] = "Gilneas City"
-WoWTranslateGlossary["DMR"] = "Dragonmaw Retreat"
-WoWTranslateGlossary["CG"] = "Crescent Grove"
-WoWTranslateGlossary["小树林"] = "Crescent Grove"
-WoWTranslateGlossary["SWC"] = "Stormwrought Ruins"
-WoWTranslateGlossary["HFQ"] = "Hateforge Quarry"
-WoWTranslateGlossary["菜市场"] = "Hateforge Quarry"
-WoWTranslateGlossary["HSY"] = "Blackrock Depths"
-WoWTranslateGlossary["SWV"] = "Stormwind Vault"
 -- Server/modes
 WoWTranslateGlossary["乌龟魔兽"] = "Turtle WoW"
 WoWTranslateGlossary["大乌龟"] = "Turtle WoW (server)"
@@ -391,6 +371,12 @@ WoWTranslateGlossary["高精"] = "High Elf"
 WoWTranslateGlossary["哥布林"] = "Goblin"
 WoWTranslateGlossary["地精"] = "Goblin"
 -- Race pinyin abbreviations
+WoWTranslateGlossary["AR"] = "Dwarf"       -- 矮人 ĀiRén
+WoWTranslateGlossary["ar"] = "Dwarf"
+WoWTranslateGlossary["AY"] = "Night Elf"   -- 暗夜 ÀnYè
+WoWTranslateGlossary["ay"] = "Night Elf"
+WoWTranslateGlossary["SR"] = "Orc"         -- 兽人 ShòuRén
+WoWTranslateGlossary["sr"] = "Orc"
 WoWTranslateGlossary["NTR"] = "Tauren"     -- 牛头人 NiúTóuRén
 WoWTranslateGlossary["ntr"] = "Tauren"
 WoWTranslateGlossary["JM"] = "Troll"       -- 巨魔 JùMó
@@ -603,6 +589,12 @@ WoWTranslateGlossary["缺人"] = "Need more"
 WoWTranslateGlossary["满了"] = "Full"
 WoWTranslateGlossary["组满"] = "Group full"
 
+-- Trade / Economy
+WoWTranslateGlossary["收:"] = "WTB:"
+WoWTranslateGlossary["收："] = "WTB:"
+WoWTranslateGlossary["出:"] = "WTS:"
+WoWTranslateGlossary["出："] = "WTS:"
+
 -- GDKP/Loot
 WoWTranslateGlossary["金团"] = "GDKP"
 WoWTranslateGlossary["金币团"] = "GDKP"
@@ -630,7 +622,7 @@ WoWTranslateGlossary["没打过"] = "Never killed"
 WoWTranslateGlossary["秒杀"] = "One-shot"
 WoWTranslateGlossary["带秒"] = "Fast carry"
 WoWTranslateGlossary["带刷"] = "Boost/Carry"
-WoWTranslateGlossary["求带"] = "LF carry"
+WoWTranslateGlossary["带"] = "Carry"
 WoWTranslateGlossary["开团"] = "Starting raid"
 WoWTranslateGlossary["集合"] = "Gather/Summon"
 WoWTranslateGlossary["传送门"] = "Portal"
@@ -644,6 +636,8 @@ WoWTranslateGlossary["ok"] = "OK"
 WoWTranslateGlossary["等等"] = "Wait"
 WoWTranslateGlossary["等一下"] = "Wait a moment"
 WoWTranslateGlossary["开始"] = "Start"
+WoWTranslateGlossary["开车了"] = "Starting now"
+WoWTranslateGlossary["开车"] = "Starting now"
 WoWTranslateGlossary["开怪"] = "Pull"
 WoWTranslateGlossary["T开"] = "Tank pull"
 WoWTranslateGlossary["倒数"] = "Countdown"
@@ -696,8 +690,6 @@ WoWTranslateGlossary["T2.5"] = "Tier 2.5"
 WoWTranslateGlossary["T3"] = "Tier 3"
 WoWTranslateGlossary["套装"] = "Set"
 WoWTranslateGlossary["毕业装"] = "BiS gear"
-WoWTranslateGlossary["腰带"] = "Belt"
-WoWTranslateGlossary["皮带"] = "Leather Belt"
 
 -- Gear Quality
 WoWTranslateGlossary["紫装"] = "Epic"
@@ -719,6 +711,8 @@ WoWTranslateGlossary["自然抗"] = "Nature Resist"
 WoWTranslateGlossary["火焰之油"] = "Fire Oil"
 WoWTranslateGlossary["附魔"] = "Enchant"
 WoWTranslateGlossary["宝石"] = "Gem"
+WoWTranslateGlossary["图纸"] = "Recipe"
+WoWTranslateGlossary["配方"] = "Recipe"
 
 -- ============================================================================
 -- LOCATIONS (50+ entries)
@@ -877,14 +871,6 @@ WoWTranslateGlossary["233"] = "LOL"
 WoWTranslateGlossary["2333"] = "LOL"
 WoWTranslateGlossary["666"] = "Nice/Well played"
 WoWTranslateGlossary["6666"] = "Very nice!"
-WoWTranslateGlossary["奈斯"] = "Nice"
-WoWTranslateGlossary["哈喽"] = "Hello"
-WoWTranslateGlossary["欧克"] = "OK"
-WoWTranslateGlossary["三克油"] = "Thank you"
-WoWTranslateGlossary["3Q"] = "Thank you"
-WoWTranslateGlossary["3q"] = "Thank you"
-WoWTranslateGlossary["狗狗狗"] = "gogogo!"
-WoWTranslateGlossary["哦买噶"] = "Oh my god"
 WoWTranslateGlossary["牛"] = "Awesome"
 WoWTranslateGlossary["厉害"] = "Amazing"
 WoWTranslateGlossary["菜"] = "Noob"
@@ -1027,11 +1013,6 @@ WoWTranslateGlossary["软保留"] = "Soft Reserve (SR)"
 WoWTranslateGlossary["硬保留"] = "Hard Reserve"
 WoWTranslateGlossary["主天赋"] = "Main Spec"
 WoWTranslateGlossary["副天赋"] = "Off Spec"
--- Protect MS/OS from being translated as Priest (MS)
-WoWTranslateGlossary["ROLL MS"] = "Roll Main Spec"
-WoWTranslateGlossary["roll ms"] = "Roll Main Spec"
-WoWTranslateGlossary["MS > OS"] = "MS > OS"
-WoWTranslateGlossary["ms > os"] = "MS > OS"
 WoWTranslateGlossary["主副天赋"] = "MS/OS"
 WoWTranslateGlossary["一口价"] = "Buyout"
 WoWTranslateGlossary["起拍价"] = "Opening Bid"
@@ -1042,10 +1023,6 @@ WoWTranslateGlossary["分解"] = "Disenchant"
 WoWTranslateGlossary["队长分配"] = "Master Looter"
 WoWTranslateGlossary["自由拾取"] = "Free for All (loot)"
 WoWTranslateGlossary["副本"] = "Dungeon/Instance"
-WoWTranslateGlossary["爆装备"] = "drop loot"
-WoWTranslateGlossary["没爆装备"] = "didn't drop gear"
-WoWTranslateGlossary["没爆"] = "didn't drop"
-WoWTranslateGlossary["爆了"] = "dropped"
 
 -- ============================================================================
 -- CHAT SLANG (additional entries)
@@ -1069,7 +1046,6 @@ WoWTranslateGlossary["万分感谢"] = "Many thanks"
 WoWTranslateGlossary["我累了"] = "I'm tired"
 WoWTranslateGlossary["合作愉快"] = "Nice playing with you"
 WoWTranslateGlossary["祝你好运"] = "Good luck"
-WoWTranslateGlossary["骚瑞"] = "Sorry (slang)"
 
 -- ============================================================================
 -- HEALER SLANG (奶 system — 奶 = milk, used for healing/healers)
@@ -1104,9 +1080,6 @@ WoWTranslateGlossary["铜币"] = "copper"
 -- Compound forms are longer and match before bare 蓝 (蓝量/蓝装/蓝龙 already in glossary)
 WoWTranslateGlossary["没蓝了"] = "out of mana"
 WoWTranslateGlossary["没蓝"] = "out of mana"
-WoWTranslateGlossary["空蓝了"] = "OOM"
-WoWTranslateGlossary["空蓝"] = "OOM"
-WoWTranslateGlossary["空了"] = "OOM"
 WoWTranslateGlossary["蓝"] = "mana"
 
 -- ============================================================================
@@ -1114,8 +1087,6 @@ WoWTranslateGlossary["蓝"] = "mana"
 -- ============================================================================
 WoWTranslateGlossary["拉住了"] = "got aggro"
 WoWTranslateGlossary["拉住"] = "holding aggro"
-WoWTranslateGlossary["拉到"] = "pulled/summoned"
-WoWTranslateGlossary["没拉到"] = "didn't pull/summon"
 WoWTranslateGlossary["引怪了"] = "accidental pull"
 WoWTranslateGlossary["引怪"] = "accidental pull"
 -- 灭了/灭团/团灭 already in glossary; bare 灭 as safety net
@@ -1513,6 +1484,12 @@ WoWTranslateGlossary["富哥"]               = "rich player"
 -- ============================================================================
 WoWTranslateGlossary["艾泽拉斯国家地理"]   = "NGA forum"
 WoWTranslateGlossary["NGA"]                = "NGA forum"
+WoWTranslateGlossary["CPDD"]               = "LF game partner"
+WoWTranslateGlossary["cpdd"]               = "LF game partner"
+WoWTranslateGlossary["找CP"]               = "LF game partner"
+WoWTranslateGlossary["找cp"]               = "LF game partner"
+WoWTranslateGlossary["组CP"]               = "form a game partnership"
+WoWTranslateGlossary["组cp"]               = "form a game partnership"
 WoWTranslateGlossary["寻求组队"]           = "LFG channel"
 WoWTranslateGlossary["寻找组队"]           = "LFG channel"
 WoWTranslateGlossary["世界频道"]           = "world channel"
@@ -1543,6 +1520,9 @@ WoWTranslateGlossary["躺平"]               = "give up"
 WoWTranslateGlossary["摆烂"]               = "throw/sandbag"
 WoWTranslateGlossary["内卷"]               = "tryhard"
 WoWTranslateGlossary["人品"]               = "luck"
+WoWTranslateGlossary["人品问题"]           = "luck issue (bad luck)"
+WoWTranslateGlossary["RPWT"]               = "luck issue (bad luck)"
+WoWTranslateGlossary["rpwt"]               = "luck issue (bad luck)"
 WoWTranslateGlossary["脸黑"]               = "bad luck"
 WoWTranslateGlossary["脸白"]               = "good luck"
 WoWTranslateGlossary["牛逼"]               = "awesome"
@@ -1637,74 +1617,6 @@ WoWTranslateGlossary["装备"] = "Gear"
 WoWTranslateGlossary["QZ"] = "LFG"         -- 求组 QiúZǔ
 WoWTranslateGlossary["qz"] = "LFG"
 WoWTranslateGlossary["求组"] = "LFG"
-WoWTranslateGlossary["交任务"] = "turn in quest"
-WoWTranslateGlossary["交个任务"] = "turn in a quest"
-WoWTranslateGlossary["叫个任务"] = "turn in a quest (typo)"
-WoWTranslateGlossary["接任务"] = "pick up quest"
-
--- ============================================================================
--- COMBAT TACTICS & CALLOUTS (Extracted EN-ZH pairs)
--- ============================================================================
-WoWTranslateGlossary["攻击我的目标"] = "attack my target"
-WoWTranslateGlossary["打我的目标"] = "focus my target"
-WoWTranslateGlossary["别打"] = "don't attack"
-WoWTranslateGlossary["等拉怪"] = "wait for pull"
-WoWTranslateGlossary["找背攻击"] = "get behind the boss"
-WoWTranslateGlossary["卡视角拉怪"] = "line of sight"
-WoWTranslateGlossary["卡视角"] = "out of los"
-WoWTranslateGlossary["躲避"] = "take cover"
-WoWTranslateGlossary["跑出去"] = "run out"
-WoWTranslateGlossary["撤退"] = "fall back"
-WoWTranslateGlossary["拉脱脱战"] = "reset"
-WoWTranslateGlossary["拉脱脱战重开"] = "reset and try again"
-WoWTranslateGlossary["第一次尝试"] = "first attempt"
-WoWTranslateGlossary["待在那"] = "stay there"
-WoWTranslateGlossary["靠近坦克"] = "come to the tank"
-WoWTranslateGlossary["跟我来"] = "follow me"
-WoWTranslateGlossary["稍等"] = "hold on"
-WoWTranslateGlossary["坚守阵地"] = "hold your position"
-WoWTranslateGlossary["先别进去"] = "don't go in yet"
-WoWTranslateGlossary["击杀顺序"] = "kill order"
-WoWTranslateGlossary["打骷髅"] = "focus skull"
-WoWTranslateGlossary["击杀骷髅"] = "kill skull"
-WoWTranslateGlossary["打大叉"] = "focus cross"
-WoWTranslateGlossary["冰月亮"] = "trap moon"
-WoWTranslateGlossary["羊方块"] = "sheep square"
-WoWTranslateGlossary["闷三角"] = "sap triangle"
-WoWTranslateGlossary["绷带"] = "bandage"
-WoWTranslateGlossary["紧急治疗"] = "emergency heal"
-WoWTranslateGlossary["沉默治疗"] = "silence the healer"
-WoWTranslateGlossary["消仇恨"] = "aggro dump"
-
--- ============================================================================
--- LFG & SOCIAL (Extracted EN-ZH pairs)
--- ============================================================================
-WoWTranslateGlossary["求组治疗"] = "LF healer"
-WoWTranslateGlossary["求组坦克"] = "LF tank"
-WoWTranslateGlossary["求组输出"] = "LF dps"
-WoWTranslateGlossary["求组德鲁伊"] = "LF druid"
-WoWTranslateGlossary["求组牧师"] = "LF priest"
-WoWTranslateGlossary["求组萨满"] = "LF shaman"
-WoWTranslateGlossary["求组圣骑士"] = "LF paladin"
-WoWTranslateGlossary["求组法师"] = "LF mage"
-WoWTranslateGlossary["求组术士"] = "LF warlock"
-WoWTranslateGlossary["求组战士"] = "LF warrior"
-WoWTranslateGlossary["求组盗贼"] = "LF rogue"
-WoWTranslateGlossary["求组猎人"] = "LF hunter"
-WoWTranslateGlossary["同意"] = "agreed"
-WoWTranslateGlossary["你懂的"] = "ya know"
-WoWTranslateGlossary["偶尔"] = "from time to time"
-WoWTranslateGlossary["很荣幸"] = "it was a pleasure"
-WoWTranslateGlossary["明天见"] = "see you tomorrow"
-WoWTranslateGlossary["我网络不行"] = "my internet is bad"
-WoWTranslateGlossary["还有人吗"] = "anyone else"
-WoWTranslateGlossary["在哪里交任务"] = "where do I hand in"
-WoWTranslateGlossary["哪里交"] = "where to hand in"
-WoWTranslateGlossary["哪里接"] = "where to take"
-WoWTranslateGlossary["共享任务"] = "shared quest"
-WoWTranslateGlossary["交不了任务"] = "cannot hand in"
-WoWTranslateGlossary["任务卡住了"] = "bugged quest"
-
 -- Mage Portal / Open the portal
 WoWTranslateGlossary["KM"] = "Mage Portal" -- 开门 KāiMén
 WoWTranslateGlossary["km"] = "Mage Portal"
@@ -1781,8 +1693,6 @@ WoWTranslateGlossary["进组来"]       = "Inv pls"
 WoWTranslateGlossary["来拉人"]       = "Click (summon stone)"
 WoWTranslateGlossary["来石头的来"]   = "Click summon stone"
 WoWTranslateGlossary["到门口的来"]   = "At the gate (click stone)"
-WoWTranslateGlossary["点门"]         = "Click the stone/portal"
-WoWTranslateGlossary["点下门"]       = "Click the stone/portal"
 WoWTranslateGlossary["到门口"]       = "At the gate"
 WoWTranslateGlossary["来人"]         = "Need"
 WoWTranslateGlossary["来个"]         = "Need"
@@ -1794,144 +1704,105 @@ WoWTranslateGlossary["暗月马戏团"]   = "Darkmoon Faire"
 WoWTranslateGlossary["暗月"]         = "Darkmoon"
 
 -- ============================================================================
+-- NEW SLANG ADDITIONS (FROM AUDIT)
+-- ============================================================================
+-- Slang and Idioms
+WoWTranslateGlossary["牛的一匹"] = "fucking awesome"
+WoWTranslateGlossary["为什么抠脚"] = "Why are you playing terribly?"
+WoWTranslateGlossary["抠脚"] = "playing terribly/noobish"
+WoWTranslateGlossary["石更身寸"] = "hard shoot (slang)"
+WoWTranslateGlossary["摸鱼猎手"] = "Slacker Hunter"
+WoWTranslateGlossary["懂王"] = "know-it-all"
+WoWTranslateGlossary["恩"] = "yeah/ok"
+
+-- WoW Terminology
+WoWTranslateGlossary["辞职了"] = "quit the group"
+WoWTranslateGlossary["退队"] = "leave the group"
+WoWTranslateGlossary["1加尾"] = "first and last boss"
+WoWTranslateGlossary["接龙"] = "sign-up list"
+WoWTranslateGlossary["12格包"] = "12-slot bag"
+
+-- More Player Interactions
+WoWTranslateGlossary["拉怪"] = "pull aggro"
+
+-- Additional Combat & Mechanics Slang
+WoWTranslateGlossary["羊开"] = "sheep and pull"
+WoWTranslateGlossary["杨开"] = "sheep and pull"
+WoWTranslateGlossary["卡视角"] = "LOS"
+WoWTranslateGlossary["被网了"] = "netted"
+WoWTranslateGlossary["引这么多"] = "pulled so many"
+WoWTranslateGlossary["我引回来"] = "I'll pull them back"
+WoWTranslateGlossary["反伤"] = "damage reflect"
+
+-- Additional Group & World Interactions
+WoWTranslateGlossary["T我"] = "kick me"
+WoWTranslateGlossary["T我一下"] = "kick me"
+WoWTranslateGlossary["你退啥"] = "why did you leave?"
+WoWTranslateGlossary["boss不打了"] = "skipping the boss?"
+WoWTranslateGlossary["炉石了"] = "using hearthstone"
+
+-- Pinyin Class & Role Acronyms
+WoWTranslateGlossary["qs"] = "Paladin"
+WoWTranslateGlossary["fs"] = "Mage"
+WoWTranslateGlossary["dz"] = "Rogue"
+WoWTranslateGlossary["zs"] = "Warrior"
+WoWTranslateGlossary["ms"] = "Priest"
+WoWTranslateGlossary["xd"] = "Druid"
+WoWTranslateGlossary["nd"] = "Resto Druid"
+WoWTranslateGlossary["ss"] = "Warlock"
+WoWTranslateGlossary["lr"] = "Hunter"
+WoWTranslateGlossary["sm"] = "Shaman"
+WoWTranslateGlossary["nq"] = "Holy Paladin"
+WoWTranslateGlossary["fq"] = "Prot Paladin"
+WoWTranslateGlossary["kbz"] = "Fury Warrior"
+
+-- ============================================================================
+-- POLYMORPH & PET NAMES
+-- ============================================================================
+WoWTranslateGlossary["绵羊"] = "Sheep"
+WoWTranslateGlossary["猪"] = "Pig"
+WoWTranslateGlossary["乌龟"] = "Turtle"
+WoWTranslateGlossary["企鹅"] = "Penguin"
+WoWTranslateGlossary["黑猫"] = "Black Cat"
+WoWTranslateGlossary["野猪"] = "Boar"
+WoWTranslateGlossary["迅猛龙"] = "Raptor"
+WoWTranslateGlossary["风蛇"] = "Wind Serpent"
+WoWTranslateGlossary["猫头鹰"] = "Owl"
+WoWTranslateGlossary["蝎子"] = "Scorpion"
+WoWTranslateGlossary["土狗"] = "Hyena"
+WoWTranslateGlossary["狼"] = "Wolf"
+WoWTranslateGlossary["熊"] = "Bear"
+WoWTranslateGlossary["猩猩"] = "Gorilla"
+WoWTranslateGlossary["螃蟹"] = "Crab"
+WoWTranslateGlossary["蜘蛛"] = "Spider"
+WoWTranslateGlossary["鳄鱼"] = "Crocolisk"
+
+-- ============================================================================
 -- GLOSSARY LOOKUP FUNCTIONS
 -- ============================================================================
-
-local incomingGlossaryLowerIndex = nil
 
 -- Check glossary for exact match
 function WoWTranslate_CheckGlossaryExact(text)
     if WoWTranslateGlossary[text] then
         return WoWTranslateGlossary[text], "glossary_exact"
     end
-
-    if not incomingGlossaryLowerIndex then
-        incomingGlossaryLowerIndex = {}
-        for k, v in pairs(WoWTranslateGlossary) do
-            incomingGlossaryLowerIndex[string.lower(k)] = v
-        end
-    end
-
-    local lowerText = string.lower(text)
-    if incomingGlossaryLowerIndex[lowerText] then
-        return incomingGlossaryLowerIndex[lowerText], "glossary_exact"
-    end
-
     return nil, nil
 end
 
+local cachedSortedKeys = nil
+
 -- Check glossary for partial matches and replace terms in text
 function WoWTranslate_CheckGlossaryPartial(text)
-    local sortedKeys = {}
-    for k, _ in pairs(WoWTranslateGlossary) do
-        table.insert(sortedKeys, k)
-    end
-    table.sort(sortedKeys, function(a, b)
-        local lenA, lenB = string.len(a), string.len(b)
-        if lenA == lenB then
-            return a < b
+    if not cachedSortedKeys then
+        cachedSortedKeys = {}
+        for k, _ in pairs(WoWTranslateGlossary) do
+            table.insert(cachedSortedKeys, k)
         end
-        return lenA > lenB
-    end)
-
-    local function isAlphanumeric(byte)
-        return byte and (
-            (byte >= 65 and byte <= 90) or
-            (byte >= 97 and byte <= 122) or
-            (byte >= 48 and byte <= 57)
-        )
+        table.sort(cachedSortedKeys, function(a, b) return string.len(a) > string.len(b) end)
     end
 
-    -- Find all non-overlapping matches in the ORIGINAL text only.
-    -- Never scan the replacement values — that's what caused "wAlterac Valleye Goldoodbye".
-    local matches = {}
-    local textLen = string.len(text)
-    local lowerText = string.lower(text)
-
-    for _, key in ipairs(sortedKeys) do
-        local keyLen = string.len(key)
-        local lowerKey = string.lower(key)
-
-        -- Short pure-ASCII keys (abbreviations like "av", "g", "sm") must sit at
-        -- a word boundary so they don't fire inside English words produced by
-        -- earlier replacements or typed by the player.
-        local requireBoundary = false
-        if keyLen <= 3 then
-            requireBoundary = true
-            for i = 1, keyLen do
-                if string.byte(key, i) > 127 then
-                    requireBoundary = false  -- has multibyte (Chinese) chars, no boundary needed
-                    break
-                end
-            end
-        end
-
-        local pos = 1
-        while pos <= textLen do
-            local startPos, endPos = string.find(lowerText, lowerKey, pos, true)
-            if not startPos then break end
-
-            local ok = true
-
-            if requireBoundary then
-                local before = startPos > 1 and string.byte(text, startPos - 1) or nil
-                local after  = endPos < textLen and string.byte(text, endPos + 1) or nil
-                if isAlphanumeric(before) or isAlphanumeric(after) then
-                    ok = false
-                end
-            end
-
-            if ok then
-                -- Longer keys already sorted first, so first match at a position wins.
-                -- Just check for overlap with what's already claimed.
-                for _, m in ipairs(matches) do
-                    if startPos <= m.endPos and endPos >= m.startPos then
-                        ok = false
-                        break
-                    end
-                end
-            end
-
-            if ok then
-                table.insert(matches, {
-                    startPos    = startPos,
-                    endPos      = endPos,
-                    replacement = WoWTranslateGlossary[key]
-                })
-            end
-
-            pos = endPos + 1
-        end
-    end
-
-    if table.getn(matches) == 0 then
-        return nil, nil
-    end
-
-    -- Reconstruct: paste untouched spans between replacements.
-    table.sort(matches, function(a, b) return a.startPos < b.startPos end)
-
-    local parts = {}
-    local lastEnd = 0
-    for _, m in ipairs(matches) do
-        if m.startPos > lastEnd + 1 then
-            table.insert(parts, string.sub(text, lastEnd + 1, m.startPos - 1))
-        end
-        -- Pad replacement with spaces to guarantee English word boundaries
-        table.insert(parts, " " .. m.replacement .. " ")
-        lastEnd = m.endPos
-    end
-    if lastEnd < textLen then
-        table.insert(parts, string.sub(text, lastEnd + 1))
-    end
-
-    local result = table.concat(parts, "")
-    -- Collapse multiple spaces into one, and trim leading/trailing spaces
-    result = string.gsub(result, "%s+", " ")
-    result = string.gsub(result, "^%s+", "")
-    result = string.gsub(result, "%s+$", "")
-
-    return result, "glossary_partial"
+    local result, matchType = WT_GlossaryPartialMatch(text, WoWTranslateGlossary, cachedSortedKeys, 3, true)
+    return result, matchType
 end
 
 -- Main glossary check function - tries exact first, then partial

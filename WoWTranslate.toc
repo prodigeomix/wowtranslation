@@ -7,6 +7,11 @@
 
 WoWTranslate_Glossary.lua
 WoWTranslate_OutGlossary.lua
+WoWTranslate_Globals.lua
+WoWTranslate_String.lua
+WoWTranslate_Hyperlink.lua
+WoWTranslate_Tooltip.lua
+WoWTranslate_Hooks.lua
 WoWTranslate_Cache.lua
 WoWTranslate_API.lua
 WoWTranslate_Config.lua

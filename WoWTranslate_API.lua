@@ -64,17 +64,14 @@ end
 
 -- Check if DLL is loaded and responding
 function WoWTranslate_API.CheckDLL()
-    if not UnitXP then
-        dllAvailable = false
-        return false
-    end
-
-    local success, result = pcall(function()
-        return UnitXP("WoWTranslate", "ping")
-    end)
-    if success and result == "pong" then
-        dllAvailable = true
-        return true
+    if UnitXP then
+        local success, result = pcall(function()
+            return UnitXP("WoWTranslate", "ping")
+        end)
+        if success and result == "pong" then
+            dllAvailable = true
+            return true
+        end
     end
     dllAvailable = false
     return false
@@ -166,13 +163,8 @@ function WoWTranslate_API.Translate(text, callback, fromLang)
     end)
 
     if not success then
-        if WoWTranslateDB and WoWTranslateDB.debugMode and DEFAULT_CHAT_FRAME then
-            DEFAULT_CHAT_FRAME:AddMessage("|cFFFFFF00[WT-DEBUG] UnitXP call failed: " .. tostring(err) .. "|r")
-        end
         pendingRequests[requestId] = nil
-        if pendingTexts[text] == requestId then
-            pendingTexts[text] = nil
-        end
+		pendingTexts[text] = nil 
         if callback then
             callback(nil, "DLL call failed: " .. tostring(err))
         end
@@ -221,6 +213,8 @@ local function PollTranslations()
             if requestId and pendingRequests[requestId] then
                 local req = pendingRequests[requestId]
                 pendingRequests[requestId] = nil
+                pendingTexts[req.text] = nil
+                OnRequestCompleted()
 
                 if req.callback then
                     -- pcall prevents a callback error from disabling the pollFrame OnUpdate.
@@ -261,11 +255,6 @@ local function PollTranslations()
                         lastCallbackError = tostring(_cbErr)
                     end
                 end
-
-                if pendingTexts[req.text] == requestId then
-                    pendingTexts[req.text] = nil
-                end
-                OnRequestCompleted()
             end
         end
     end
@@ -275,9 +264,7 @@ local function PollTranslations()
     for id, req in pairs(pendingRequests) do
         if now - req.timestamp > REQUEST_TIMEOUT then
             pendingRequests[id] = nil
-            if pendingTexts[req.text] == id then
-                pendingTexts[req.text] = nil
-            end
+            pendingTexts[req.text] = nil
             OnRequestCompleted()
             if req.callback then
                 pcall(req.callback, nil, "Request timed out")  -- pcall: don't break polling on error
@@ -318,9 +305,6 @@ healthCheckFrame:SetScript("OnUpdate", function()
     if healthCheckElapsed >= HEALTH_CHECK_INTERVAL then
         healthCheckElapsed = 0
         WoWTranslate_API.CheckDLL() -- always; restores dllAvailable if DLL recovers
-        if dllAvailable and rateLimitedUntil > 0 and GetTime() > rateLimitedUntil + 60 then
-            WoWTranslate_API.ResetBackoff()
-        end
     end
 end)
 
@@ -373,10 +357,8 @@ function WoWTranslate_API.TranslateOutgoing(text, callback)
     end)
 
     if not success then
-        if WoWTranslateDB and WoWTranslateDB.debugMode and DEFAULT_CHAT_FRAME then
-            DEFAULT_CHAT_FRAME:AddMessage("|cFFFFFF00[WT-DEBUG] UnitXP call failed: " .. tostring(err) .. "|r")
-        end
         pendingRequests[requestId] = nil
+		pendingTexts[text] = nil 
         if callback then
             callback(nil, "DLL call failed: " .. tostring(err))
         end
@@ -451,3 +433,4 @@ function WoWTranslate_API.GetPendingRequests()
     end
     return info
 end
+
